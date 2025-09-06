@@ -1,4 +1,3 @@
-# my-project
 #include <iostream>
 using namespace std ;
 // mohasebe Rn
