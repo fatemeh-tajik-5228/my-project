@@ -3,18 +3,18 @@ using namespace std ;
 // mohasebe Rn
 int main () {
 	int n , power ;
-	cout << "Andaze matris ra vared kon(satr=sotoon)" << "\n" ;
+	cout << "Andaze matris ra vared kon(satr=sotoon) : " ;
 	cin >> n ;
 	int A[n][n] , result[n][n] , temp[n][n] ;
-	cout << "matris rabeteh ra vared kon(0 or 1)" << "\n" ;
+	cout << "matris rabeteh ra vared kon(0 or 1) :\n" ;
 	for(int i=0 ; i<n ; i++) {
-		cout << "satr" << i+1 << ": \n" ;
+		cout << "satr" << i+1 << ": " ;
 		for(int j=0 ; j<n ; j++) {
 			cin >> A[i][j] ;
 			result[i][j] = A[i][j] ;
-		}
-		cout << "\n" ;
+    	}
 	}
+	cout << "\n" ;
 	cout << "tavan: " ;
 	cin >> power ;
 	
@@ -42,4 +42,3 @@ int main () {
 	}
 	return 0 ;
 }
-
